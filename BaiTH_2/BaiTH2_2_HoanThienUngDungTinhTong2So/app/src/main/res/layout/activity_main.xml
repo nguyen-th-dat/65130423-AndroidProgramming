@@ -47,6 +47,7 @@
         android:layout_marginTop="40dp"
         android:backgroundTint="#E01010"
         android:text="Tính Tổng"
+        android:onClick="XuLyCong"
         android:textSize="20sp"
         android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
