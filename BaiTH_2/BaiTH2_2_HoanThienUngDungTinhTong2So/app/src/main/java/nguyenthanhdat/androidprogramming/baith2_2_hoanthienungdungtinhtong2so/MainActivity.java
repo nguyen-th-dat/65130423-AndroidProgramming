@@ -1,6 +1,8 @@
 package nguyenthanhdat.androidprogramming.baith2_2_hoanthienungdungtinhtong2so;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.EditText;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,5 +22,28 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+    }
+
+    public void XuLyCong(View view){
+        // Tìm, tham chiếu đến file xml
+        EditText textA = findViewById(R.id.editTextA);
+        EditText textB = findViewById(R.id.editTextB);
+        EditText textKQ = findViewById(R.id.editTextKQ);
+
+        // Láy dữ liệu a
+        String strA = textA.getText().toString();
+        // Lấy dữ liệu b
+        String strB = textB.getText().toString();
+
+        // Chuyển dữ liệu đã lấy sang dạng số
+        int a = Integer.parseInt(strA);
+        int b = Integer.parseInt(strB);
+
+        //Tinh toan Cong
+        int tong = a + b;
+        // chuyển sang tong sang dạng chuỗi
+        String strTong = String.valueOf(tong);
+        //Hiện ra kết quả
+        textKQ.setText(strTong);
     }
 }
