@@ -1,7 +1,7 @@
 # Môn học: **Lập trình thiết bị di động**
 
 ## Giới thiệu
-Repository này dùng để lưu **bài tập và bài thực hành môn Lập trình Android**.
+Repository này dùng để lưu **bài tập và bài thực hành môn Lập trình Thiết bị di động**.
 
 ## Thông tin về học phần
 
