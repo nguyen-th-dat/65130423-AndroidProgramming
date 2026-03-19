@@ -11,6 +11,10 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
+    //Khai bao
+    EditText so1, so2, KQ;
+    String strA, strB, strKQ;
+    float a, b, kq;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,98 +26,69 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        TimDieuKhien();
+    }
+
+    void TimDieuKhien(){
+        so1 = findViewById(R.id.edtSo1);
+        so2 = findViewById(R.id.edtSo2);
+        KQ = findViewById(R.id.edtKetQua);
+    }
+
+
+    boolean XyLyDuLieu() {
+
+        try {
+            // Lấy chuỗi và xóa khoảng trắng thừa
+            strA = so1.getText().toString().trim();
+            strB = so2.getText().toString().trim();
+
+            // Kiểm tra nếu ô nhập bị bỏ trống
+            if (strA.isEmpty() || strB.isEmpty()) {
+                KQ.setText("Lỗi: Vui lòng nhập đủ 2 số!");
+                return false;
+            }
+
+            // Chuyển sang số
+            a = Float.parseFloat(strA);
+            b = Float.parseFloat(strB);
+            return true;
+
+        } catch (NumberFormatException e) {
+            // Nếu nhập chữ hoặc ký tự đặc biệt
+            KQ.setText("Lỗi: Nhập sai định dạng số!");
+            return false;
+        }
     }
 
     public void XuLyCong(View view){
-        // Tìm, tham chiếu đến file xml
-        EditText so1 = findViewById(R.id.edtSo1);
-        EditText so2 = findViewById(R.id.edtSo2);
-        EditText textKQ = findViewById(R.id.edtKetQua);
-
-        // Láy dữ liệu số thứ nhất
-        String strA = so1.getText().toString();
-        // Lấy dữ liệu số thứ hai
-        String strB = so2.getText().toString();
-
-        // Chuyển dữ liệu đã lấy sang dạng số
-        float a = Float.parseFloat(strA);
-        float b = Float.parseFloat(strB);
-
-        //Tinh toan Cong
-        float tong = a + b;
-        // chuyển sang tong sang dạng chuỗi
-        String strTong = String.valueOf(tong);
-        //Hiện ra kết quả
-        textKQ.setText(strTong);
+        if (XyLyDuLieu()) {
+            kq = a + b;
+            InKQ(kq);
+        }
     }
-
     public void XuLyTru(View view){
-        // Tìm, tham chiếu đến file xml
-        EditText so1 = findViewById(R.id.edtSo1);
-        EditText so2 = findViewById(R.id.edtSo2);
-        EditText textKQ = findViewById(R.id.edtKetQua);
-
-        // Láy dữ liệu số thứ nhất
-        String strA = so1.getText().toString();
-        // Lấy dữ liệu số thứ hai
-        String strB = so2.getText().toString();
-
-        // Chuyển dữ liệu đã lấy sang dạng số
-        float a = Float.parseFloat(strA);
-        float b = Float.parseFloat(strB);
-
-        //Tinh toan Tru
-        float tong = a - b;
-        // chuyển sang tong sang dạng chuỗi
-        String strTong = String.valueOf(tong);
-        //Hiện ra kết quả
-        textKQ.setText(strTong);
+        if (XyLyDuLieu()) {
+            kq = a - b;
+            InKQ(kq);
+        }
     }
-
     public void XuLyNhan(View view){
-        // Tìm, tham chiếu đến file xml
-        EditText so1 = findViewById(R.id.edtSo1);
-        EditText so2 = findViewById(R.id.edtSo2);
-        EditText textKQ = findViewById(R.id.edtKetQua);
-
-        // Láy dữ liệu số thứ nhất
-        String strA = so1.getText().toString();
-        // Lấy dữ liệu số thứ hai
-        String strB = so2.getText().toString();
-
-        // Chuyển dữ liệu đã lấy sang dạng số
-        float a = Float.parseFloat(strA);
-        float b = Float.parseFloat(strB);
-
-        //Tinh toan Nhan
-        float tong = a * b;
-        // chuyển sang tong sang dạng chuỗi
-        String strTong = String.valueOf(tong);
-        //Hiện ra kết quả
-        textKQ.setText(strTong);
+        if (XyLyDuLieu()) {
+            kq = a * b;
+            InKQ(kq);
+        }
+    }
+    public void XuLyChia(View view){
+        if (XyLyDuLieu()) {
+            kq = a / b;
+            InKQ(kq);
+        }
     }
 
-    public void XuLyChia(View view){
-        // Tìm, tham chiếu đến file xml
-        EditText so1 = findViewById(R.id.edtSo1);
-        EditText so2 = findViewById(R.id.edtSo2);
-        EditText textKQ = findViewById(R.id.edtKetQua);
-
-        // Láy dữ liệu số thứ nhất
-        String strA = so1.getText().toString();
-        // Lấy dữ liệu số thứ hai
-        String strB = so2.getText().toString();
-
-        // Chuyển dữ liệu đã lấy sang dạng số thực
-        float a = Float.parseFloat(strA);
-        float b = Float.parseFloat(strB);
-
-        //Tinh toan Chia
-        float tong = a / b;
-        // chuyển sang tong sang dạng chuỗi
-        String strTong = String.valueOf(tong);
-        //Hiện ra kết quả
-        textKQ.setText(strTong);
+    public void InKQ(float kq) {
+        strKQ = String.valueOf(kq);
+        KQ.setText(String.valueOf(strKQ));
     }
 
 }
