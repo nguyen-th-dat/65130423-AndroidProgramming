@@ -12,14 +12,8 @@ Repository này dùng để lưu **bài tập và bài thực hành môn Lập t
 Học phần cung cấp các kiến thức để người học có thể xây dựng được ứng dụng chạy trên thiết bị di động sử dụng hệ điều hành Android sử dụng cú pháp ngôn ngữ Java
 
 ## Công nghệ sử dụng
-
 * Ngôn ngữ: **Java**
 
-## Cấu trúc thư mục
-```
-65130423-AndroidProgramming/
-└── README.md
-```
 ## Thông tin sinh viên
 
 * Tên sinh viên: **Nguyễn Thành Đạt**
