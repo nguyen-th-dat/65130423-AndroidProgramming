@@ -53,7 +53,6 @@ public class MainActivity extends AppCompatActivity {
         dsMenu.add("Cá Kho");
         dsMenu.add("Canh Chua");
         dsMenu.add("Mực Chiên Tỏi");
-        dsMenu.add("Mực Chiên Tỏi");
 
 
 
