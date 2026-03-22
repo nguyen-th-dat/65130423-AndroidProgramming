@@ -24,6 +24,7 @@
         android:fontFamily="serif-monospace"
         android:text="Menu"
         android:textSize="80sp"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
         app:layout_constraintEnd_toEndOf="@+id/view"
         app:layout_constraintStart_toEndOf="@+id/imageView3"
         app:layout_constraintTop_toTopOf="parent" />
@@ -38,14 +39,11 @@
 
     <ListView
         android:id="@+id/lvMenu"
-        android:layout_width="358dp"
+        android:layout_width="wrap_content"
         android:layout_height="718dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginEnd="1dp"
-        android:layout_marginBottom="1dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view" />
 </androidx.constraintlayout.widget.ConstraintLayout>
