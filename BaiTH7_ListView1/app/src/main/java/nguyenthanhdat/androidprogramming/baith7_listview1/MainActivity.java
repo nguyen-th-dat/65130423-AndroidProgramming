@@ -47,7 +47,8 @@ public class MainActivity extends AppCompatActivity {
         dsMenu.add("Hủ Tiếu");
         dsMenu.add("Bún Bò");
         dsMenu.add("Mì Quảng");
-        dsMenu.add("Xôi");
+        dsMenu.add("Xôi Đậu");
+        dsMenu.add("Xôi Xéo");
         dsMenu.add("Bánh Xèo");
         dsMenu.add("Mì Tôm");
         dsMenu.add("Cá Kho");
