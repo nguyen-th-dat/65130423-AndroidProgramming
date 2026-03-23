@@ -83,9 +83,11 @@ public class MainActivity extends AppCompatActivity {
             // thong vao vi tri va gia tri cua phan tu vua chon
 
             // Hiện vị trí
-            Toast.makeText(MainActivity.this, "Bạn vừa chọn: " + String.valueOf(position), Toast.LENGTH_LONG).show();
+            //Toast.makeText(MainActivity.this, "Bạn vừa chọn: " + String.valueOf(position), Toast.LENGTH_LONG).show();
 
-
+            // Hiện giá trị
+            String tenMonDaChon = dsMenu.get(position);
+            Toast.makeText(MainActivity.this, "Bạn vừa chọn: " + tenMonDaChon, Toast.LENGTH_LONG).show();
 
 
         }
