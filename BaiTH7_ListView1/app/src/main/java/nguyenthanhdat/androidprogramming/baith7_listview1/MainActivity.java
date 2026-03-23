@@ -1,8 +1,11 @@
 package nguyenthanhdat.androidprogramming.baith7_listview1;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -68,7 +71,23 @@ public class MainActivity extends AppCompatActivity {
         // 3.2 Gắn
         lvDSMonAn.setAdapter(adapterMenu);
         // 3.3 Lắng nghe và xử lí sự kiện
-        // ...
+        lvDSMonAn.setOnItemClickListener(BoLangNghevaXuLi);
 
     }
+
+    AdapterView.OnItemClickListener BoLangNghevaXuLi =  new AdapterView.OnItemClickListener() {
+        @Override
+        public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+            // code xử lí
+            // position la phan tu vua duoc click
+            // thong vao vi tri va gia tri cua phan tu vua chon
+
+            // Hiện vị trí
+            Toast.makeText(MainActivity.this, "Bạn vừa chọn: " + String.valueOf(position), Toast.LENGTH_LONG).show();
+
+
+
+
+        }
+    };
 }
