@@ -13,6 +13,7 @@ import androidx.core.view.WindowInsetsCompat;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
+    ArrayList<String> dsMenu; // Khai báo bên ngoài thành biến toàn cục
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,7 +30,6 @@ public class MainActivity extends AppCompatActivity {
 
         // B1. Cần có Dữ liệu (Dữ liệu tứ SQL, noSQL, XML
         // Ở đây, ta dùng dữ liệu trực tiếp
-        ArrayList<String> dsMenu; // Khai báo
         dsMenu = new ArrayList<String>(); //tạo thế hiện cụ thể, xin mới
 
         // thêm dữ liệu
