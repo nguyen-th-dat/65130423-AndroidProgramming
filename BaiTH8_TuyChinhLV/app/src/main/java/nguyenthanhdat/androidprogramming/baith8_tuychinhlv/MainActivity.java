@@ -1,12 +1,18 @@
 package nguyenthanhdat.androidprogramming.baith8_tuychinhlv;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ListView;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+
+import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -20,5 +26,32 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
+        //Tim listview
+        ListView lvdsMonAn = (ListView) findViewById(R.id.lvMonAn);
+
+        // du lieu
+        ArrayList<MonAn> dsMonAn = new ArrayList<MonAn>();
+        dsMonAn.add(new MonAn("Cơm Tấm", 27000, "Com ngon", R.drawable.comtam));
+        dsMonAn.add(new MonAn("Bánh Mì", 20000, "Mo ta Mo ta Mota", R.drawable.banhmi));
+        dsMonAn.add(new MonAn("Phở", 30000, "Mo ta Mo ta Mota", R.drawable.pho));
+        dsMonAn.add(new MonAn("Bún cá", 20000, "Mo ta Mo ta Mota", R.drawable.bunca));
+
+        //
+        MonAnAdapter adapter = new MonAnAdapter(this, dsMonAn);
+        lvdsMonAn.setAdapter(adapter);
+
+        //Bat xu li sukien
+        lvdsMonAn.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                // lay phan tu
+                MonAn monAnChon = dsMonAn.get(position);
+                //
+                Toast.makeText(MainActivity.this,monAnChon.getTenMonAn(), Toast.LENGTH_SHORT ).show();
+            }
+        });
     }
+
+
 }
