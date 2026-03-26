@@ -5,43 +5,52 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#E4D3CD"
+    android:background="#BFAB9A"
     tools:context=".MainActivity">
 
 
-    <View
-        android:id="@+id/view"
+    <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:background="#8C3C37"
+        android:layout_height="150dp"
+        android:background="#831F21"
+        android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:fontFamily="serif"
-        android:text="Menu"
-        android:textColor="#FF9800"
-        android:textSize="60sp"
-        android:textStyle="bold|italic"
-        app:layout_constraintEnd_toEndOf="@+id/view"
-        app:layout_constraintHorizontal_bias="0.523"
-        app:layout_constraintStart_toStartOf="@+id/view"
-        app:layout_constraintTop_toTopOf="@+id/view" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/menu" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="100"
+            android:fontFamily="@font/alex_brush"
+            android:text="Menu"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#FFAB10"
+            android:textSize="100sp"
+            android:textStyle="bold|italic" />
+
+
+    </LinearLayout>
 
     <ListView
         android:id="@+id/lvMonAn"
-        android:layout_width="409dp"
-        android:layout_height="629dp"
+        android:layout_width="match_parent"
+        android:layout_height="668dp"
         android:layout_marginTop="1dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view" />
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
