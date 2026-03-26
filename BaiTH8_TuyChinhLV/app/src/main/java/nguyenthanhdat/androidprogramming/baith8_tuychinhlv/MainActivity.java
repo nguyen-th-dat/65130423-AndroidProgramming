@@ -36,6 +36,24 @@ public class MainActivity extends AppCompatActivity {
         dsMonAn.add(new MonAn("Bánh Mì", 20000, "Mo ta Mo ta Mota", R.drawable.banhmi));
         dsMonAn.add(new MonAn("Phở", 30000, "Mo ta Mo ta Mota", R.drawable.pho));
         dsMonAn.add(new MonAn("Bún cá", 20000, "Mo ta Mo ta Mota", R.drawable.bunca));
+        dsMonAn.add(new MonAn("Bún cá", 20000, "Mo ta Mo ta Mota", R.drawable.bunca));
+        dsMonAn.add(new MonAn("Bún cá", 20000, "Mo ta Mo ta Mota", R.drawable.bunca));
+        dsMonAn.add(new MonAn("Bún cá", 20000, "Mo ta Mo ta Mota", R.drawable.bunca));
+        dsMonAn.add(new MonAn("Bún cá", 20000, "Mo ta Mo ta Mota", R.drawable.bunca));
+        dsMonAn.add(new MonAn("Bún cá", 20000, "Mo ta Mo ta Mota", R.drawable.bunca));
+        dsMonAn.add(new MonAn("Bún cá", 20000, "Mo ta Mo ta Mota", R.drawable.bunca));
+        dsMonAn.add(new MonAn("Bún cá", 20000, "Mo ta Mo ta Mota", R.drawable.bunca));
+        dsMonAn.add(new MonAn("Bún cá", 20000, "Mo ta Mo ta Mota", R.drawable.bunca));
+        dsMonAn.add(new MonAn("Bún cá", 20000, "Mo ta Mo ta Mota", R.drawable.bunca));
+        dsMonAn.add(new MonAn("Bún cá", 20000, "Mo ta Mo ta Mota", R.drawable.bunca));
+        dsMonAn.add(new MonAn("Bún cá", 20000, "Mo ta Mo ta Mota", R.drawable.bunca));
+        dsMonAn.add(new MonAn("Bún cá", 20000, "Mo ta Mo ta Mota", R.drawable.bunca));
+        dsMonAn.add(new MonAn("Bún cá", 20000, "Mo ta Mo ta Mota", R.drawable.bunca));
+        dsMonAn.add(new MonAn("Bún cá", 20000, "Mo ta Mo ta Mota", R.drawable.bunca));
+        dsMonAn.add(new MonAn("Bún cá", 20000, "Mo ta Mo ta Mota", R.drawable.bunca));
+        dsMonAn.add(new MonAn("Bún cá", 20000, "Mo ta Mo ta Mota", R.drawable.bunca));
+        dsMonAn.add(new MonAn("Bún cá", 20000, "Mo ta Mo ta Mota", R.drawable.bunca));
+        dsMonAn.add(new MonAn("Bún cá", 20000, "Mo ta Mo ta Mota", R.drawable.bunca));
 
         // adapter
         MonAnAdapter adapter = new MonAnAdapter(this, dsMonAn);
