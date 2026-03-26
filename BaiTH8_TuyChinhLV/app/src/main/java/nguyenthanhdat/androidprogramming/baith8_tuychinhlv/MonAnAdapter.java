@@ -41,23 +41,23 @@ public class MonAnAdapter extends BaseAdapter {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        // item view hien hanh
+        // item view hiện hành
         View viewHienHanh = convertView;
 
-        //Kiem tra view hien chua
+        // Kiểm tra view hiện tại
         if (viewHienHanh == null)
             viewHienHanh = layoutInflater.inflate(R.layout.item_monan,null);
-        // lay du lieu
+        // lấy dữ liệu
         MonAn monAnHienTai = dsMonAn.get(position);
-        //gan len dieu khien
+        // gắn lên điều khiển
 
-        // tim dieu khien
+        // tìm điều khiển
         TextView TextView_TenMon = (TextView) viewHienHanh.findViewById(R.id.tenMonAn);
         TextView TextView_DonGia= (TextView) viewHienHanh.findViewById(R.id.donGia);
         TextView TextView_MoTa = (TextView) viewHienHanh.findViewById(R.id.moTa);
         ImageView ImgView_Avatar = (ImageView) viewHienHanh.findViewById(R.id.imgMoTA);
 
-        // set len
+        // set lên
 
         TextView_TenMon.setText(monAnHienTai.getTenMonAn());
         TextView_DonGia.setText(String.valueOf(monAnHienTai.getTenMonAn()));

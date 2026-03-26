@@ -30,24 +30,24 @@ public class MainActivity extends AppCompatActivity {
         //Tim listview
         ListView lvdsMonAn = (ListView) findViewById(R.id.lvMonAn);
 
-        // du lieu
+        // thêm dữ liệu
         ArrayList<MonAn> dsMonAn = new ArrayList<MonAn>();
         dsMonAn.add(new MonAn("Cơm Tấm", 27000, "Com ngon", R.drawable.comtam));
         dsMonAn.add(new MonAn("Bánh Mì", 20000, "Mo ta Mo ta Mota", R.drawable.banhmi));
         dsMonAn.add(new MonAn("Phở", 30000, "Mo ta Mo ta Mota", R.drawable.pho));
         dsMonAn.add(new MonAn("Bún cá", 20000, "Mo ta Mo ta Mota", R.drawable.bunca));
 
-        //
+        // adapter
         MonAnAdapter adapter = new MonAnAdapter(this, dsMonAn);
         lvdsMonAn.setAdapter(adapter);
 
-        //Bat xu li sukien
+        // Xử lí sự kiện
         lvdsMonAn.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                // lay phan tu
+                // lấy phần tử
                 MonAn monAnChon = dsMonAn.get(position);
-                //
+                // hiện ra màn hình
                 Toast.makeText(MainActivity.this,monAnChon.getTenMonAn(), Toast.LENGTH_SHORT ).show();
             }
         });
