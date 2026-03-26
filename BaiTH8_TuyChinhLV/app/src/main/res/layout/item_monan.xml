@@ -25,7 +25,8 @@
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:textSize="24sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
 
         <TextView
             android:id="@+id/donGia"
@@ -33,14 +34,16 @@
             android:layout_height="30dp"
             android:textAllCaps="false"
             android:textSize="16sp"
-            android:textStyle="italic" />
+            android:textStyle="italic"
+            android:textColor="@color/black"/>
 
         <TextView
             android:id="@+id/moTa"
             android:layout_width="match_parent"
             android:layout_height="30dp"
             android:textAllCaps="false"
-            android:textSize="13sp"/>
+            android:textSize="13sp"
+            android:textColor="@color/black"/>
 
 
     </LinearLayout>
