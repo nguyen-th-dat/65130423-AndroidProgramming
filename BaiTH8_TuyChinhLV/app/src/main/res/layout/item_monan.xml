@@ -4,22 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="120dp"
-    android:background="#C37474"
     android:orientation="horizontal"
     android:padding="10dp">
 
     <ImageView
         android:id="@+id/imgMoTA"
         android:layout_width="100dp"
-        android:layout_height="100dp" 
-        android:background="#25AD88"/>
+        android:layout_height="100dp"/>
 
 
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:background="#E91E63"
         android:orientation="vertical"
         android:padding="5dp">
 
@@ -27,8 +24,6 @@
             android:id="@+id/tenMonAn"
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:background="@color/white"
-            android:text="Món thứ nhất"
             android:textSize="24sp"
             android:textStyle="bold" />
 
@@ -36,8 +31,6 @@
             android:id="@+id/donGia"
             android:layout_width="match_parent"
             android:layout_height="30dp"
-            android:background="#00BCD4"
-            android:text="100000"
             android:textAllCaps="false"
             android:textSize="16sp"
             android:textStyle="italic" />
@@ -46,8 +39,6 @@
             android:id="@+id/moTa"
             android:layout_width="match_parent"
             android:layout_height="30dp"
-            android:background="#FFEB3B"
-            android:text="mo ta o day"
             android:textAllCaps="false"
             android:textSize="13sp"/>
 
