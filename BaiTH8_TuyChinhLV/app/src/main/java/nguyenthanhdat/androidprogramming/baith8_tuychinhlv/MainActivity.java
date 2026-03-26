@@ -32,28 +32,14 @@ public class MainActivity extends AppCompatActivity {
 
         // thêm dữ liệu
         ArrayList<MonAn> dsMonAn = new ArrayList<MonAn>();
-        dsMonAn.add(new MonAn("Cơm Tấm", 27000, "Com ngon", R.drawable.comtam));
-        dsMonAn.add(new MonAn("Bánh Mì", 20000, "Mo ta Mo ta Mota", R.drawable.banhmi));
-        dsMonAn.add(new MonAn("Phở", 30000, "Mo ta Mo ta Mota", R.drawable.pho));
-        dsMonAn.add(new MonAn("Bún cá", 20000, "Mo ta Mo ta Mota", R.drawable.bunca));
-        dsMonAn.add(new MonAn("Bún cá", 20000, "Mo ta Mo ta Mota", R.drawable.bunca));
-        dsMonAn.add(new MonAn("Bún cá", 20000, "Mo ta Mo ta Mota", R.drawable.bunca));
-        dsMonAn.add(new MonAn("Bún cá", 20000, "Mo ta Mo ta Mota", R.drawable.bunca));
-        dsMonAn.add(new MonAn("Bún cá", 20000, "Mo ta Mo ta Mota", R.drawable.bunca));
-        dsMonAn.add(new MonAn("Bún cá", 20000, "Mo ta Mo ta Mota", R.drawable.bunca));
-        dsMonAn.add(new MonAn("Bún cá", 20000, "Mo ta Mo ta Mota", R.drawable.bunca));
-        dsMonAn.add(new MonAn("Bún cá", 20000, "Mo ta Mo ta Mota", R.drawable.bunca));
-        dsMonAn.add(new MonAn("Bún cá", 20000, "Mo ta Mo ta Mota", R.drawable.bunca));
-        dsMonAn.add(new MonAn("Bún cá", 20000, "Mo ta Mo ta Mota", R.drawable.bunca));
-        dsMonAn.add(new MonAn("Bún cá", 20000, "Mo ta Mo ta Mota", R.drawable.bunca));
-        dsMonAn.add(new MonAn("Bún cá", 20000, "Mo ta Mo ta Mota", R.drawable.bunca));
-        dsMonAn.add(new MonAn("Bún cá", 20000, "Mo ta Mo ta Mota", R.drawable.bunca));
-        dsMonAn.add(new MonAn("Bún cá", 20000, "Mo ta Mo ta Mota", R.drawable.bunca));
-        dsMonAn.add(new MonAn("Bún cá", 20000, "Mo ta Mo ta Mota", R.drawable.bunca));
-        dsMonAn.add(new MonAn("Bún cá", 20000, "Mo ta Mo ta Mota", R.drawable.bunca));
-        dsMonAn.add(new MonAn("Bún cá", 20000, "Mo ta Mo ta Mota", R.drawable.bunca));
-        dsMonAn.add(new MonAn("Bún cá", 20000, "Mo ta Mo ta Mota", R.drawable.bunca));
-        dsMonAn.add(new MonAn("Bún cá", 20000, "Mo ta Mo ta Mota", R.drawable.bunca));
+        dsMonAn.add(new MonAn("Cơm Tấm", 27000, "Cơm tấm nguyên liệu chính là cơm", R.drawable.comtam));
+        dsMonAn.add(new MonAn("Cơm Chiên", 40000, "Cơm Chiên nguyên liệu chính là cơm", R.drawable.comchienduongchau));
+        dsMonAn.add(new MonAn("Mì xào Hải sản", 40000, "Mì xào Hải sản có Hải sản", R.drawable.mixaohaisan));
+        dsMonAn.add(new MonAn("Bánh Mì thập cẩm", 20000, "Bánh Mì ngon số 2 Nha Trang", R.drawable.banhmi));
+        dsMonAn.add(new MonAn("Phở", 30000, "Phở ngon số 2 Nha Trang", R.drawable.pho));
+        dsMonAn.add(new MonAn("Bún cá", 20000, "Bún cá đặc sản Nha Trang", R.drawable.bunca));
+        dsMonAn.add(new MonAn("Bún riêu", 20000, "Đây là Bún riêu", R.drawable.bunca));
+
 
         // adapter
         MonAnAdapter adapter = new MonAnAdapter(this, dsMonAn);
