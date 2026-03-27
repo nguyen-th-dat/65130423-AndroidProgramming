@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         dsMonAn.add(new MonAn("Bánh Mì thập cẩm", 20000, "Bánh Mì ngon số 2 Nha Trang", R.drawable.banhmi));
         dsMonAn.add(new MonAn("Phở", 30000, "Phở ngon số 2 Nha Trang", R.drawable.pho));
         dsMonAn.add(new MonAn("Bún cá", 20000, "Bún cá đặc sản Nha Trang", R.drawable.bunca));
-        dsMonAn.add(new MonAn("Bún riêu", 20000, "Đây là Bún riêu", R.drawable.bunca));
+        dsMonAn.add(new MonAn("Bún riêu", 20000, "Đây là Bún riêu", R.drawable.bunrieu));
 
 
         // adapter
