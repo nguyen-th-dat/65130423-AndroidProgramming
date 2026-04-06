@@ -43,3 +43,11 @@ Phần mềm được thiết kế trên điện thoại Redmi note 11T pro 5G k
  #### [Chi tiết bài tập](./BaiTH2/BaiTH2_2_HoanThienUngDungTinhTong2So)
 
 <img src="./BaiTH2/img/Screenshot_BaiTH2.png" width="300" />
+
+
+ ### Bài 3: Linear Layout
+ *Bài thực hành, tương tác với các điều khiển cơ bản, sử dụng thuộc tính **onClick** của Button để code mã đáp ứng sự kiện*
+
+  #### [Chi tiết bài tập](./BaiTH3_LinearLayOut01/)
+
+<img src="./BaiTH3_LinearLayOut01/img/Screenshot_20260406_235114.png" width="300" />
