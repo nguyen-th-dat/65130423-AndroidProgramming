@@ -1,7 +1,7 @@
 # Môn học: **Lập trình thiết bị di động**
 
 ## Giới thiệu
-Repository này dùng để lưu **bài tập và bài thực hành môn Lập trình Thiết bị di động**.
+Repository này dùng để lưu bài tập và bài thực hành trong quá trình học môn Lập trình Thiết bị di động.
 
 ## Thông tin về học phần
 
@@ -12,7 +12,9 @@ Repository này dùng để lưu **bài tập và bài thực hành môn Lập t
 Học phần cung cấp các kiến thức để người học có thể xây dựng được ứng dụng chạy trên thiết bị di động sử dụng hệ điều hành Android sử dụng cú pháp ngôn ngữ Java
 
 ## Công nghệ sử dụng
-* Ngôn ngữ: **Java**
+* IDE: Android Studio
+* API: 24 ("Nougat"; Android 7.0)
+* Ngôn ngữ: Java
 
 ## Thông tin sinh viên
 
@@ -21,10 +23,10 @@ Học phần cung cấp các kiến thức để người học có thể xây d
 * Trường : **[Đại học Nha Trang](https://ntu.edu.vn/)**
 
 
+## Ghi chú
+Phần mềm được thiết kế trên điện thoại Redmi note 11T pro 5G kích thước 6.6 inch, độ phân giải Full HD+ (1080 x 2460 pixel), có thể sẽ không hiển thị như mong muốn trên thiết bị của bạn
+
 ---
+## Bài tập đã thực hiện
 
 
- ### App tính tổng
- #### [Chi tiết bài tập](./BaiTH2/BaiTH2_2_HoanThienUngDungTinhTong2So)
-<img src="./BaiTH2/img/Screenshot_BaiTH2.png" width="300" />
- 
