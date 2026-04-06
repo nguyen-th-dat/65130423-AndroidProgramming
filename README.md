@@ -21,3 +21,10 @@ Học phần cung cấp các kiến thức để người học có thể xây d
 * Trường : **[Đại học Nha Trang](https://ntu.edu.vn/)**
 
 
+---
+
+
+ ### App tính tổng
+ #### [Chi tiết bài tập]()
+<img src="./BaiTH2/img/Screenshot_BaiTH2.png" width="300" />
+ 
