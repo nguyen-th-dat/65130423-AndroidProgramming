@@ -40,6 +40,6 @@ Phần mềm được thiết kế trên điện thoại Redmi note 11T pro 5G k
  ### Bài 2: Phần mềm Tính tổng
  *App thực hiện hiện tính tổng từ 2 số nhập vào từ bàn phím*
  
- #### [Chi tiết bài tập](./BaiTH2_2_HoanThienUngDungTinhTong2So)
+ #### [Chi tiết bài tập](./BaiTH2/BaiTH2_2_HoanThienUngDungTinhTong2So)
 
 <img src="./BaiTH2/img/Screenshot_BaiTH2.png" width="300" />
