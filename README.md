@@ -51,3 +51,11 @@ Phần mềm được thiết kế trên điện thoại Redmi note 11T pro 5G k
   #### [Chi tiết bài tập](./BaiTH3_LinearLayOut01/)
 
 <img src="./BaiTH3_LinearLayOut01/img/Screenshot_20260406_235114.png" width="300" />
+
+
+ ### Bài 4: LinearLayOut_Tong2So
+ *Bài thực hành, Sủ dụng **Linear Layout** cho ứng dụng tính*
+
+ #### [Chi tiết bài tập](./BaiTH4_LinearLayOut_Tong2So)
+
+<img src="./BaiTH4_LinearLayOut_Tong2So/img/Screenshot_20260407_001204.png" width="300" />
