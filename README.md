@@ -29,10 +29,17 @@ Phần mềm được thiết kế trên điện thoại Redmi note 11T pro 5G k
 ---
 ## Bài tập đã thực hiện
 
- ### Bài 1: Hello Android 
- #### [Chi tiết bài tập](./BaiTH2_2_HoanThienUngDungTinhTong2So)
-<img src="./img/Screenshot_BaiTH1.png" width="300" />
+ ### Bài 1: Hello Android
+ *Hello Andoid*
+ 
+ #### [Chi tiết bài tập](./HelloAndroid)
 
- ### Bài 2: Phần mềm Tính tổng 
+<img src="./HelloAndroid/img/Screenshot_HelloAndroid.png" width="300" />
+
+
+ ### Bài 2: Phần mềm Tính tổng
+ *App thực hiện hiện tính tổng từ 2 số nhập vào từ bàn phím*
+ 
  #### [Chi tiết bài tập](./BaiTH2_2_HoanThienUngDungTinhTong2So)
-<img src="./img/Screenshot_BaiTH2.png" width="300" />
+
+<img src="./BaiTH2/img/Screenshot_BaiTH2.png" width="300" />
