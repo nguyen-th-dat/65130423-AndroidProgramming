@@ -66,4 +66,4 @@ Phần mềm được thiết kế trên điện thoại Redmi note 11T pro 5G k
  
 #### [Chi tiết bài tập](./BaiTH5_XuLySuKien1/)
 
-<img src="./img/image.png" width="500" />
+<img src="./BaiTH5_XuLySuKien1/img/image.png" width="500" />
