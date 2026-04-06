@@ -20,11 +20,11 @@ Học phần cung cấp các kiến thức để người học có thể xây d
 * MSSV: **65130423**
 * Trường : **[Đại học Nha Trang](https://ntu.edu.vn/)**
 
+---
+## Ghi chú
+Phần mềm được thiết kế trên điện thoại Redmi note 11T pro 5G kích thước 6.6 inch, độ phân giải Full HD+ (1080 x 2460 pixel), có thể sẽ không hiển thị như mong muốn trên thiết bị của bạn
 
 ---
 
 
- ### App tính tổng
- #### [Chi tiết bài tập](./BaiTH2_2_HoanThienUngDungTinhTong2So)
-<img src="./img/Screenshot_BaiTH2.png" width="300" />
- 
+
