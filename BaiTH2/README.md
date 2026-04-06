@@ -25,6 +25,6 @@ Học phần cung cấp các kiến thức để người học có thể xây d
 
 
  ### App tính tổng
- #### [Chi tiết bài tập](./BaiTH2/BaiTH2_2_HoanThienUngDungTinhTong2So)
-<img src="./BaiTH2/img/Screenshot_BaiTH2.png" width="300" />
+ #### [Chi tiết bài tập](./BaiTH2_2_HoanThienUngDungTinhTong2So)
+<img src="./img/Screenshot_BaiTH2.png" width="300" />
  
