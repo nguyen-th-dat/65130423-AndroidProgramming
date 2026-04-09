@@ -62,7 +62,7 @@ Phần mềm được thiết kế trên điện thoại Redmi note 11T pro 5G k
 
 
  ### Bài 5: BaiTH5_XuLySuKien1
- *Ứng dụng tính toán tương tự như [BaiTH4_LinearLayOut_Tong2So](../BaiTH4_LinearLayOut_Tong2So/) nhưng sử dụng Bộ lắng nghe sự kiện **Ẩn danh***
+ *Ứng dụng tính toán tương tự như [BaiTH4_LinearLayOut_Tong2So](./BaiTH4_LinearLayOut_Tong2So/) nhưng sử dụng Bộ lắng nghe sự kiện **Ẩn danh***
  
 #### [Chi tiết bài tập](./BaiTH5_XuLySuKien1/)
 
