@@ -30,7 +30,7 @@ Phần mềm được thiết kế trên điện thoại Redmi note 11T pro 5G k
 ## Bài tập đã thực hiện
 
  ### Bài 1: Hello Android
- *Hello Andoid*
+ ***Hello Andoid**, ứng dụng đầu tiên*
  
  #### [Chi tiết bài tập](./HelloAndroid)
 
