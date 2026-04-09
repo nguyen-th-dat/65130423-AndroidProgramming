@@ -34,7 +34,7 @@ Phần mềm được thiết kế trên điện thoại Redmi note 11T pro 5G k
  
  #### [Chi tiết bài tập](./HelloAndroid)
 
-<img src="./HelloAndroid/img/Screenshot_HelloAndroid.png" width="300" />
+<img src="./HelloAndroid/img/Screenshot_20260409_204903.png" width="300" />
 
 
  ### Bài 2: Phần mềm Tính tổng
