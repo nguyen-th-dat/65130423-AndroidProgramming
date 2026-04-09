@@ -42,7 +42,7 @@ Phần mềm được thiết kế trên điện thoại Redmi note 11T pro 5G k
  
  #### [Chi tiết bài tập](./BaiTH2/BaiTH2_2_HoanThienUngDungTinhTong2So)
 
-<img src="./BaiTH2/img/Screenshot_BaiTH2.png" width="300" />
+<img src="./BaiTH2/img/Screenshot_20260409_205842.png" width="300" />
 
 
  ### Bài 3: Linear Layout
