@@ -23,11 +23,6 @@ Học phần cung cấp các kiến thức để người học có thể xây d
 * Trường : **[Đại học Nha Trang](https://ntu.edu.vn/)**
 
 
-## Ghi chú
-Phần mềm được thiết kế trên điện thoại Redmi note 11T pro 5G kích thước 6.6 inch, độ phân giải Full HD+ (1080 x 2460 pixel), có thể sẽ không hiển thị như mong muốn trên thiết bị của bạn
-
-<img src="./images/Device_info.png" width="500" />
-
 ---
 ## Bài tập đã thực hiện
 
