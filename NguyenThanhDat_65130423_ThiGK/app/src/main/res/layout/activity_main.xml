@@ -21,7 +21,7 @@
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragmentContainerView_Footer"
         android:name="thigk2.nguyenthanhdat.androidprogramming.nguyenthanhdat_65130423_thigk.FooterFragment"
-        android:layout_width="0dp"  
+        android:layout_width="0dp"
         android:layout_height="80dp"
         android:background="#55608E"
         app:layout_constraintBottom_toBottomOf="parent"
