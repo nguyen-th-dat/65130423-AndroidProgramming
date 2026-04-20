@@ -7,6 +7,8 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.EditText;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -55,10 +57,51 @@ public class VndToDolaFragment extends Fragment {
         }
     }
 
+
+    EditText textVnd, textUSD;
+    Button btnDoi;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_vnd_to_dola, container, false);
+
+
+        // Inflate layout
+        View view = inflater.inflate(R.layout.fragment_vnd_to_dola, container, false);
+
+        // Tham chieu cac EditText trong fragment_footer.xml
+        textVnd = view.findViewById(R.id.editTextVnd);
+        textUSD = view.findViewById(R.id.editTextUSD);
+
+        // Tham chieu nut (phai co nut trong XML)
+        btnDoi = view.findViewById(R.id.btnDoi);
+
+        // Gan su kien click
+        btnDoi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                XuLyDoi();
+            }
+        });
+
+        return view;
+    }
+
+    // Ham xu ly doi tien
+    public void XuLyDoi() {
+        String strVND = textVnd.getText().toString().trim();
+
+        if (strVND.isEmpty()) {
+            textUSD.setText("");
+            return;
+        }
+
+        // Chuyen chuoi sang so
+        double vnd = Double.parseDouble(strVND);
+
+        // Ti gia ngay 20/04/2026 luc 8h
+        double usd = vnd / 26097;
+
+        // Hien ket qua
+        textUSD.setText(String.valueOf(usd));
     }
 }
